@@ -11,9 +11,11 @@
       } */
 
 .title{
-    background-image: url(wid-BOISE.jpg);
+    background-image: url(../images/wid-BOISE.jpg);
     height: 25rem;
-    width: 300px auto; 
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .title-words{
@@ -21,9 +23,9 @@
     margin-bottom: 2rem;
     text-align: left;
 }
-.row { 
+/* .row { 
     outline : 2px solid red;
-    }
+    } */
 
     .features{
 background-color: dodgerblue;
