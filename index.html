@@ -21,10 +21,7 @@
 <body>
     <div class="container-fluid">
         <div class="row title">
-            <!-- No need for empty div's use an offset if need be -->
-            <div class="col-xs-12"> </div>
-            <div class="col-md-3"></div>
-            <div class="col-md-9 title-words">
+            <div class="col-9 offset-3 title-words">
                 <h2>World Wide Widets</h2>
                 <p> The best original widgets in the world.</p>
                 <p> Come see what everyone is talking about</p>
@@ -32,40 +29,35 @@
             </div>
         </div>
         <div class="row features">
-            <!-- again using excess col's -->
-            <div class="col-md-12"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2 item">
-                <i class="fas fa-briefcase icon"></i>
+            <div class="col-2"></div>
+            <div class="col-sm-2 item">
+                <i class="fas fa-briefcase icon img-fluid"></i>
                 <h5>This is item Number 1</h5>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
             </div>
-            <div class="col-md-2 item">
-                <i class="fas fa-tags icon"></i>
+            <div class="col-sm-2 item">
+                <i class="fas fa-tags icon img-fluid"></i>
                 <h5>This is item Number 2</h5>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
             </div>
-            <div class="col-md-2 item">
-                <i class="fas fa-bullseye icon"></i>
+            <div class="col-sm-2 item">
+                <i class="fas fa-bullseye icon img-fluid"></i>
                 <h5>This is item Number 3</h5>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
             </div>
-            <div class="col-md-2 item">
-                <i class="fas fa-certificate icon"></i>
+            <div class="col-sm-2 item">
+                <i class="fas fa-certificate icon img-fluid"></i>
                 <h5>This is item Number 4</h5>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-2"></div>
         </div>
-
         <div class="row news">
-            <!-- random col -->
-            <div class="col-md-12"></div>
             <div class="col">
                 <h4>Get news from the World of Widgets</h4>
                 <p>Leave us your mail and get Widget news.</p>
                 <div class="row">
-                    <div class="col-md-4 offset-md-4 input-group">
+                    <div class="col-sm-4 offset-4 input-group">
                         <input type="email" class="form-control" placeholder="Subscriber Email" aria-label="Subscriber Email" aria-describedby="emailSubscribe">
                         <div class="input-group-append">
                             <button class="btn btn-outline-primary" type="button">Subscribe</button>
@@ -75,66 +67,45 @@
             </div>
         </div>
         <div class="row map1">
-            <div class="col-md-12">
+            <div class="col-12">
                 <div id="map"></div>
             </div>
         </div>
         <div class="row footer">
-            <div class="col-md-6">
-                <!-- Why is this a form? -->
-                <form>
-                    <div class="form-group">
-                        <div class="btn-group">
-                            <a href="https://youtube.com" target="_blank">
-                                <button type="button" class="btn btn-primary">
-                                    <span class="fab fa-youtube-square"></span>
-                                </button>
-                            </a>
-                        </div>
-                        <div class="btn-group">
-                            <a href="https://facebook.com" target="_blank">
-                                <button type="button" class="btn btn-primary">
-                                    <span class="fab fa-facebook-square"></span>
-                                </button>
-                            </a>
-                        </div>
-                        <div class="btn-group">
-                            <a href="https://instagram.com" target="_blank">
-                                <button type="button" class="btn btn-primary">
-                                    <span class="fab fa-instagram"></span>
-                                </button>
-                            </a>
-                        </div>
-                        <div class="btn-group">
-                            <a href="https://twitter.com" target="_blank">
-                                <button type="button" class="btn btn-primary">
-                                    <span class="fab fa-twitter-square"></span>
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </form>
-                <!-- <div class="col-md-3"></div>
-    <div class="col-md-1">
-        <i class="fab fa-youtube-square"></i>
-    </div>
-    <div class="col-md-1">
-        <i class="fab fa-facebook-square"></i>
-    </div>
-    <div class="col-md-1">
-        <i class="fab fa-instagram"></i>
-        </div>
-    <div class="col-md-1">
-            <i class="fab fa-twitter-square"></i>
+            <div class="col-sm-6 text-center mt-4">
+                <div class="btn-group foot-b">
+                    <a href="https://youtube.com" target="_blank">
+                        <button type="button" class="btn btn-primary">
+                            <span class="fab fa-youtube-square"></span>
+                        </button>
+                    </a>
+                </div>
+                <div class="btn-group foot-b">
+                    <a href="https://facebook.com" target="_blank">
+                        <button type="button" class="btn btn-primary">
+                            <span class="fab fa-facebook-square"></span>
+                        </button>
+                    </a>
+                </div>
+                <div class="btn-group foot-b">
+                    <a href="https://instagram.com" target="_blank">
+                        <button type="button" class="btn btn-primary">
+                            <span class="fab fa-instagram"></span>
+                        </button>
+                    </a>
+                </div>
+                <div class="btn-group foot-b">
+                    <a href="https://twitter.com" target="_blank">
+                        <button type="button" class="btn btn-primary">
+                            <span class="fab fa-twitter-square"></span>
+                        </button>
+                    </a>
+                </div>
             </div>
-        -->
-            </div>
-            <div class="col-md-6">
-                <p> All items on the site are reserved and created by the World of Widgets</p>
+            <div class="col-6 d-flex align-items-end justify-content-end">
+                <p class="copy-rt"> All items on the site are reserved and created by the World of Widgets</p>
             </div>
         </div>
-
-
     </div>
 </body>
 

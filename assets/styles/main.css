@@ -3,18 +3,13 @@
        #map {
         height: 100%;
       }
-      /* Optional: Makes the sample page fill the window. */
-      /* html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      } */
+
 
 .title{
     background-image: url(../images/wid-BOISE.jpg);
-    height: 25rem;
+    min-height: 25rem;
     /* background size cover looks a bit better */
-    background-size: auto 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -30,12 +25,13 @@
 
     .features{
 background-color: dodgerblue;
-height: 20rem;
+min-height: 20rem;
 width: auto;
 }    
 
 .item{
     text-align: center;
+    margin-top: 10vh;
 }
 .icon{
     
@@ -52,5 +48,14 @@ width: auto;
 }
 .footer{
     background: black;
-    height: 5rem;
+    min-height: 5rem;
+}
+.copy-rt{
+    color: white;
+    font-size: .5rem;
+    text-align: right;
+}
+.foot-b{
+    margin-left: 2vh;
+    margin-right: 2vh;
 }
