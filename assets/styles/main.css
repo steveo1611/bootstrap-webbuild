@@ -13,6 +13,7 @@
 .title{
     background-image: url(../images/wid-BOISE.jpg);
     height: 25rem;
+    /* background size cover looks a bit better */
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
